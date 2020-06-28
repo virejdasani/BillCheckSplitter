@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".FinalActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/placeholder2"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:text="@string/placeholder_text." />
+
+        <TextView
+            android:id="@+id/everyone_owes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Everyone owes:"
+            android:textColor="#ffffff"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/placeholder3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_text." />
+
+        <TextView
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#ffffff"
+            android:textSize="63sp" />
+
+        <TextView
+            android:id="@+id/placeholder1"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:text="@string/placeholder_text." />
+
+        <Button
+            android:id="@+id/calculateagainbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#9c9c9c"
+            android:text="         Calculate Again         "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/creatorbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textSize="11sp"
+            android:text="About The Creator" />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

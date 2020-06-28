@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Split Your Bill</string>
+    <string name="bill_amount">Enter the total price of the bill/check: </string>
+    <string name="split_between">Enter number of people: </string>
+    <string name="placeholder_text.">.</string>
+</resources>
